@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="3" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-09T11:22:43 IST" name="Default suite" finished-at="2022-11-09T11:23:11 IST" duration-ms="28141">
+    <groups>
+    </groups>
+    <test started-at="2022-11-09T11:22:43 IST" name="Default test" finished-at="2022-11-09T11:23:11 IST" duration-ms="28141">
+      <class name="extentReportDemo.ExtentReportsSacueLabs">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:22:43 IST" name="startReport" finished-at="2022-11-09T11:22:43 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:22:43 IST" name="setup" finished-at="2022-11-09T11:22:48 IST" duration-ms="4171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VefifyLogin()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:22:48 IST" name="VefifyLogin" finished-at="2022-11-09T11:22:50 IST" duration-ms="2430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VefifyLogin -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:22:50 IST" name="getResult" finished-at="2022-11-09T11:22:51 IST" duration-ms="753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VefifyLogin status=SUCCESS method=ExtentReportsSacueLabs.VefifyLogin()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:22:51 IST" name="setup" finished-at="2022-11-09T11:22:53 IST" duration-ms="1988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginButton()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:22:53 IST" name="VerifyLoginButton" finished-at="2022-11-09T11:22:55 IST" duration-ms="2040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginButton -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:22:55 IST" name="getResult" finished-at="2022-11-09T11:22:56 IST" duration-ms="705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginButton status=SUCCESS method=ExtentReportsSacueLabs.VerifyLoginButton()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:22:56 IST" name="setup" finished-at="2022-11-09T11:22:58 IST" duration-ms="2652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPassword()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:22:58 IST" name="verifyPassword" finished-at="2022-11-09T11:23:00 IST" duration-ms="2046" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#password123"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'SOP1IN', ip: '10.148.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\sop\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ef836b45d4818527a8ebc040daa64f22
+*** Element info: {Using=id, value=password123}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#password123"}
+  (Session info: chrome=107.0.5304.88)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'SOP1IN', ip: '10.148.1.162', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\sop\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:55593}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ef836b45d4818527a8ebc040daa64f22
+*** Element info: {Using=id, value=password123}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at extentReportDemo.ExtentReportsSacueLabs.verifyPassword(ExtentReportsSacueLabs.java:95)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPassword -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:23:00 IST" name="getResult" finished-at="2022-11-09T11:23:02 IST" duration-ms="1313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPassword status=FAILURE method=ExtentReportsSacueLabs.verifyPassword()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:23:02 IST" name="setup" finished-at="2022-11-09T11:23:04 IST" duration-ms="2665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitle()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:23:04 IST" name="verifyTitle" finished-at="2022-11-09T11:23:04 IST" duration-ms="13" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Swag Labs123] but found [Swag Labs]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Swag Labs123] but found [Swag Labs]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at extentReportDemo.ExtentReportsSacueLabs.verifyTitle(ExtentReportsSacueLabs.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:23:04 IST" name="getResult" finished-at="2022-11-09T11:23:05 IST" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitle status=FAILURE method=ExtentReportsSacueLabs.verifyTitle()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:23:05 IST" name="setup" finished-at="2022-11-09T11:23:08 IST" duration-ms="2627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyusername()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:23:08 IST" name="verifyusername" finished-at="2022-11-09T11:23:10 IST" duration-ms="2052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyusername -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:23:10 IST" name="getResult" finished-at="2022-11-09T11:23:11 IST" duration-ms="1165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyusername status=SUCCESS method=ExtentReportsSacueLabs.verifyusername()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:extentReportDemo.ExtentReportsSacueLabs@3c7f66c4]" started-at="2022-11-09T11:23:11 IST" name="endReport" finished-at="2022-11-09T11:23:11 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- extentReportDemo.ExtentReportsSacueLabs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
