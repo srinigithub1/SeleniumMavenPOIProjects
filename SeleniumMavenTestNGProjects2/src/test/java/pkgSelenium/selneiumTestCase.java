@@ -4,14 +4,15 @@ import static org.junit.Assert.*;
 
 import java.util.List;
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class selneiumTestCase {
 	
@@ -19,15 +20,15 @@ public class selneiumTestCase {
 	
 	static String url_app="https://www.saucedemo.com/";
 
-	@Before
+	@BeforeClass
 	public void setUp() throws Exception {
 		
 		System.out.println("opening broswer");
-		System.setProperty("webdriver.chrome.driver", "C:\\Sleniumsoftwares\\chromedriver107\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Seleniumsoftware\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 	}
 
-	@After
+	@AfterClass
 	public void tearDown() throws Exception {
 		
 		driver.quit();

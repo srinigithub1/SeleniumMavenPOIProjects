@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="saucelabs.LoginTest"/>
+      <class name="pkgSelenium.SauceLabAutomationTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

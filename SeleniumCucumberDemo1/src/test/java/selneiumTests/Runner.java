@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 //@RunWith(Cucumber.class)				
-@CucumberOptions(features="Features",glue={"StepDefinition"},publish=true)						
+//@CucumberOptions(features="Features",glue={"StepDefinition"},publish=true)						
 //public class Runner 				
 //{		
 //
@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class) 
-//@CucumberOptions(features="Features", glue={"StepDefinition"},plugin = {"pretty", "html:target/Destination"} ) 
+@CucumberOptions(features="Features", glue={"StepDefinition"},plugin = {"pretty", "html:target/Destination.html"} ) 
 //@CucumberOptions( plugin={"json:target/Destination/cucumber.json"},features="Features", glue={"StepDefinition"})
 
 /*

@@ -22,8 +22,9 @@ public class SwagLabsLogin {
 	
 		  
 	  	System.out.println("opening broswer");
-		System.setProperty("webdriver.chrome.driver", "C:\\Sleniumsoftwares\\chromedriver107\\chromedriver.exe");
-		driver=new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "E:\\Seleniumsoftware\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+	
 	}
 
 	@Given("Home page should be opened")
