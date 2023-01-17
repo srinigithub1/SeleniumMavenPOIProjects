@@ -26,6 +26,7 @@ public class selneiumTestCase {
 		System.out.println("opening broswer");
 		System.setProperty("webdriver.chrome.driver", "E:\\Seleniumsoftware\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
+		// For demo purpose, this comment has been added
 	}
 
 	@AfterClass
