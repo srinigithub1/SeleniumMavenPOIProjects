@@ -28,6 +28,8 @@ public class SauceLabAutomationTest {
 	  	System.out.println("opening broswer");
 	  	System.setProperty("webdriver.chrome.driver", "E:\\Seleniumsoftware\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
+	  
+// As a Tester, updateing setup funciton in SacueLabs Autoamtion Test
   }
   @AfterClass
   public void tearDown() {
